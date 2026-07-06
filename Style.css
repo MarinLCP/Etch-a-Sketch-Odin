@@ -1,5 +1,15 @@
+#container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap : 2px
+}
+
 .square {
+    
     background-color: black;
-    width: 16px;
-    height: 16px;
+    width: 5px;
+    height: 5px;
+    border-color: rgb(7, 132, 241);
 }
