@@ -1,15 +1,18 @@
 #container {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    gap : 2px
+    align-content: space-evenly;
+    width: 1500px;
+    gap: 2px
 }
 
 .square {
-    
+    width: 20px;
+    height: 20px;
     background-color: black;
-    width: 5px;
-    height: 5px;
-    border-color: rgb(7, 132, 241);
+}
+
+.red {
+    background-color: red;
 }
